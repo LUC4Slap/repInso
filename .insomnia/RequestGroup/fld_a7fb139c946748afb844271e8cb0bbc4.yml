@@ -1,0 +1,15 @@
+_id: fld_a7fb139c946748afb844271e8cb0bbc4
+type: RequestGroup
+parentId: wrk_ebb488e4d18145478a3018cdcca50def
+modified: 1653670391849
+created: 1653593120875
+name: LOWIB
+description: ""
+environment:
+  base_url_prod: http://api.integrado.internal:9014/
+  base_url_dev: http://localhost:3001/
+environmentPropertyOrder:
+  "&":
+    - base_url_prod
+    - base_url_dev
+metaSortKey: -1653593120875
