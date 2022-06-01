@@ -1,0 +1,37 @@
+_id: req_862cde76d7a64461b0385daf7efeb87d
+type: Request
+parentId: fld_a7fb139c946748afb844271e8cb0bbc4
+modified: 1654000956068
+created: 1653671395193
+url: "{{ _.base_url_dev }}/stock"
+name: Get Stock
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_dfae72363586486286cc06aa3bc96821
+    name: token
+    value: 91a1f1c32ac8489f87ea
+    description: ""
+  - id: pair_7345295bb5294bf0b8242ab9e60d825f
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_9e2d0d4ece0642fe9571aae4883e69b7
+    name: limit
+    value: "12"
+    description: ""
+  - id: pair_b2e2336abc254becb34b0365e3b62d9d
+    name: updated-at
+    value: 2022-05-01
+    description: ""
+authentication: {}
+metaSortKey: -1653595563153
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_d12068b971a64658b830b0a3dfa50412
+type: Request
+parentId: fld_99b66f59696545ec8a965a22cc093c5e
+modified: 1653507813229
+created: 1653493510006
+url: "{{ _.baseUrl }}/api/v1/jogadores"
+name: Crirar Atualizar Jogador
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "nome":"Lucas Almeida",
+      "email":"lucaslap27@gmail.com",
+      "telefoneCelular":"(67) 9 9124-3938"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b95c38995d1647afbc2475e965da2fda
+authentication: {}
+metaSortKey: -1653493510006
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

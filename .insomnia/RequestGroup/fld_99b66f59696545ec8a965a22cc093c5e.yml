@@ -1,0 +1,13 @@
+_id: fld_99b66f59696545ec8a965a22cc093c5e
+type: RequestGroup
+parentId: wrk_ebb488e4d18145478a3018cdcca50def
+modified: 1653502761403
+created: 1653493482908
+name: Curso Nest JS
+description: ""
+environment:
+  baseUrl: http://localhost:3000
+environmentPropertyOrder:
+  "&":
+    - baseUrl
+metaSortKey: -1653493482908

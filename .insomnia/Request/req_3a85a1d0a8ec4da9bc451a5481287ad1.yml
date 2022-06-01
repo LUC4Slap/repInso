@@ -1,0 +1,25 @@
+_id: req_3a85a1d0a8ec4da9bc451a5481287ad1
+type: Request
+parentId: fld_99b66f59696545ec8a965a22cc093c5e
+modified: 1653579700837
+created: 1653495989453
+url: "{{ _.baseUrl }}/api/v1/jogadores"
+name: Remover Jogador
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_92a20aecb8ec4548bdf12a9970069bf5
+    name: email
+    value: erica2008rs@hotmail.com
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1653495989453
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

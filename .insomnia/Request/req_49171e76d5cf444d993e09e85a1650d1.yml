@@ -1,0 +1,25 @@
+_id: req_49171e76d5cf444d993e09e85a1650d1
+type: Request
+parentId: fld_99b66f59696545ec8a965a22cc093c5e
+modified: 1653507786984
+created: 1653493645447
+url: "{{ _.baseUrl }}/api/v1/jogadores"
+name: Consultar Jogador por E-mail
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_02505c294b2a49bea1cb6b0c7f38bd88
+    name: email
+    value: lucaslap@gmail.com
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1653493645447
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

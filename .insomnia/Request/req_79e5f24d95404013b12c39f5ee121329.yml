@@ -1,0 +1,37 @@
+_id: req_79e5f24d95404013b12c39f5ee121329
+type: Request
+parentId: fld_a7fb139c946748afb844271e8cb0bbc4
+modified: 1653913352691
+created: 1653593132781
+url: "{{ _.base_url_dev }}/product"
+name: Get Product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b2c2eb928dd3449c8dd5b330e404357d
+    name: token
+    value: 91a1f1c32ac8489f87ea
+    description: ""
+  - id: pair_739326cb4f034823a794b0cdd50da704
+    name: limit
+    value: "100"
+    description: ""
+  - id: pair_717b010cd67c4d5f9554c1c78a0b533b
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_95510994500e4c818ca98b60fc9435e5
+    name: updated-at
+    value: 2018-11-27T09:16:13.232Z
+    description: ""
+authentication: {}
+metaSortKey: -1653593132781
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

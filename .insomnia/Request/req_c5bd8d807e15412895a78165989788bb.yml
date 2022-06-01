@@ -1,0 +1,21 @@
+_id: req_c5bd8d807e15412895a78165989788bb
+type: Request
+parentId: fld_99b66f59696545ec8a965a22cc093c5e
+modified: 1653493624002
+created: 1653493613615
+url: "{{ _.baseUrl }}/api/v1/jogadores"
+name: Consultar Jogadores
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653493613615
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
