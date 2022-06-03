@@ -1,7 +1,7 @@
 _id: req_58ad8cdbd02f4a9fbc991516e9704b8f
 type: Request
 parentId: fld_a7fb139c946748afb844271e8cb0bbc4
-modified: 1654042050360
+modified: 1654258299635
 created: 1654008817513
 url: "{{ _.base_url_dev }}/order"
 name: Post Order
@@ -11,71 +11,98 @@ body:
   mimeType: application/json
   text: |-
     {
-      "order_id": "59676cdf41cf3cf88e3aa833",
-      "ecommerce_id": "100003090",
-      "created_at": "2020-01-01T08:10:18.351Z",
-      "updated_at": "2020-01-02T08:10:18.351Z",
+      "order_id": "14",
+      "ecommerce_id": "14",
+      "created_at": "2022-06-02T08:57:18.351Z",
+      "updated_at": "2022-06-02T08:57:18.351Z",
       "status": "paid",
-      "email": "diego@integra.do",
-      "customer_type": "pf",
-      "customer_document": "066.495.679-40",
+      "email": "teste@teste.com.br",
+      "customer_type": "PF",
+      "customer_document": "08006474464",
       "customer_ie": "",
       "billing_address": {
-        "firstname": "Diego",
-        "lastname": "Padilha",
-        "telephone": "(47) 3042-1101",
-        "cellphone": "(47) 9.9662-2665",
-        "street": "Rua Dois de Setembro",
-        "number": "2113",
-        "complement": "Segundo Andar",
-        "reference": "Próxima a Teka",
+        "firstname": "Lucas",
+        "lastname": "Biff",
+        "telephone": "(67) 3767-2968",
+        "cellphone": "(67) 99659-3448",
+        "street": "Avenida Tamandaré",
+        "number": "787",
+        "complement": "TESTE",
+        "reference": "Enfr TESTE2",
         "neighborhood": "Itoupava Norte",
         "city": "Blumenau",
-        "postcode": "89052-004",
+        "postcode": "79901-306",
         "region_name": "Santa Catarina",
         "region_uf": "SC",
         "ibge_city_code": 4202404
       },
       "shipping_address": {
-        "firstname": "Diego",
-        "lastname": "Padilha",
-        "telephone": "(47) 3042-1101",
-        "cellphone": "(47) 9.9662-2665",
-        "street": "Rua Dois de Setembro",
-        "number": "2113",
-        "complement": "Segundo Andar",
-        "reference": "Próxima a Teka",
+       "firstname": "Lucas",
+        "lastname": "Biff",
+        "telephone": "(67) 3767-2968",
+        "cellphone": "(67) 99659-3448",
+        "street": "Avenida Tamandaré",
+        "number": "787",
+        "complement": "TESTE",
+        "reference": "Enfr TESTE2",
         "neighborhood": "Itoupava Norte",
         "city": "Blumenau",
-        "postcode": "89052-004",
+        "postcode": "79901-306",
         "region_name": "Santa Catarina",
         "region_uf": "SC",
         "ibge_city_code": 4202404
       },
       "payment": {
-        "method": "credit_card",
-        "credit_card_flag": "visa",
-        "installments_count": 2,
-        "credit_card_transaction_code": 5487,
-        "credit_card_authorization_code": 487
+        "method": "pix",
+        "credit_card_flag": "",
+        "installments_count": 1,
+        "credit_card_transaction_code": "",
+        "credit_card_authorization_code": ""
       },
       "shipping": {
         "carrier": "Correios",
         "service": "PAC",
         "description": "Correios - PAC (5 dias úteis)",
-        "amount": 10.18
+        "amount": 11
       },
       "items": [
         {
-          "sku": "ABC01",
-          "unity_price": 10.05,
-          "qty": 10,
-          "total_discount": 20,
-          "total": 80.5
+          "sku": "202",
+    			"name": "Moletom Fitness",
+          "price": 20,
+          "qty": 2,
+          "total_discount": 5,
+    			"qty_ordered": 2
+         
+        },
+    		 {
+          "sku": "2023",
+    			"name": "Moletom Fitness TESTE",
+          "price": 10,
+          "qty": 3,
+          "total_discount": 5,
+    			"qty_ordered": 3
+          
         }
       ],
-      "discount_amount": 20,
-      "order_total": 90.68
+    	"marketplace": {
+            "id": "010102",
+            "name": "MADEIRAMADEIRA COMERCIO ELETRONICO S/A",
+            "cnpj": "10490181000216",
+            "ie": "9061583880",
+            "postcode": "83085057",
+            "address": "R ARNALDO VOSGERAU",
+            "number": "695",
+            "floor": "Sala 201",
+            "province": "QUISSISSANA",
+            "city": "SAO JOSE DOS PINHAIS",
+            "region": "PARANÁ",
+            "region_id": "PR",
+            "telephone": "(41) 4062-0737",
+            "cellphone": "(41) 9.9662-2665"
+       },
+      "discount_amount": 10,
+      "order_total": 60
     }
 parameters: []
 headers:
