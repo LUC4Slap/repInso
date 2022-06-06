@@ -1,7 +1,7 @@
 _id: req_58ad8cdbd02f4a9fbc991516e9704b8f
 type: Request
 parentId: fld_a7fb139c946748afb844271e8cb0bbc4
-modified: 1654258299635
+modified: 1654508593351
 created: 1654008817513
 url: "{{ _.base_url_dev }}/order"
 name: Post Order
@@ -13,6 +13,7 @@ body:
     {
       "order_id": "14",
       "ecommerce_id": "14",
+    	"seller_code": "lojas_amigao",
       "created_at": "2022-06-02T08:57:18.351Z",
       "updated_at": "2022-06-02T08:57:18.351Z",
       "status": "paid",
@@ -86,7 +87,8 @@ body:
         }
       ],
     	"marketplace": {
-            "id": "010102",
+            "code": "b2w",
+        		"channel": "Americanas",
             "name": "MADEIRAMADEIRA COMERCIO ELETRONICO S/A",
             "cnpj": "10490181000216",
             "ie": "9061583880",
