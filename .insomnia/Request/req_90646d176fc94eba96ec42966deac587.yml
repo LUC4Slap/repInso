@@ -1,9 +1,9 @@
-_id: req_58ad8cdbd02f4a9fbc991516e9704b8f
+_id: req_90646d176fc94eba96ec42966deac587
 type: Request
-parentId: fld_a7fb139c946748afb844271e8cb0bbc4
-modified: 1655898848847
-created: 1654008817513
-url: "{{ _.base_url_dev }}order"
+parentId: fld_6f967dcefe2e47b89cd51b3bed39be11
+modified: 1654523574401
+created: 1654518308485
+url: "{{ _.base_url }}order"
 name: Post Order
 description: ""
 method: POST
@@ -11,16 +11,15 @@ body:
   mimeType: application/json
   text: |-
     {
-      "order_id": "5",
-      "ecommerce_id": "5",
+      "order_id": "14",
+      "ecommerce_id": "14",
     	"seller_code": "lojas_amigao",
       "created_at": "2022-06-02T08:57:18.351Z",
       "updated_at": "2022-06-02T08:57:18.351Z",
-      "status": "cancelled",
-      "email": "teste@email.com.br",
+      "status": "paid",
+      "email": "teste@teste.com.br",
       "customer_type": "PF",
       "customer_document": "08006474464",
-    	"customer_id": "5",
       "customer_ie": "",
       "billing_address": {
         "firstname": "Lucas",
@@ -117,7 +116,7 @@ headers:
     value: application/json
     id: pair_5310f578c63d4a0f97956906f8bdbb6f
 authentication: {}
-metaSortKey: -1653544561117
+metaSortKey: -1654518164662
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

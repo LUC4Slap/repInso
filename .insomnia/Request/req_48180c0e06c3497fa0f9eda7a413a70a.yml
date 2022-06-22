@@ -1,10 +1,10 @@
-_id: req_1fc3ff93a76b44d385bc6f0713d12197
+_id: req_48180c0e06c3497fa0f9eda7a413a70a
 type: Request
-parentId: fld_a7fb139c946748afb844271e8cb0bbc4
-modified: 1655828262929
-created: 1653597993525
-url: "{{ _.base_url_dev }}/price"
-name: Get Price
+parentId: fld_6f967dcefe2e47b89cd51b3bed39be11
+modified: 1654518346571
+created: 1654518293651
+url: "{{ _.base_url }}stock"
+name: Stock
 description: ""
 method: GET
 body: {}
@@ -20,15 +20,14 @@ headers:
     description: ""
   - id: pair_9e2d0d4ece0642fe9571aae4883e69b7
     name: limit
-    value: "10"
+    value: "12"
     description: ""
   - id: pair_b2e2336abc254becb34b0365e3b62d9d
     name: updated-at
-    value: 2022-01-01
+    value: 2022-05-01
     description: ""
-    disabled: false
 authentication: {}
-metaSortKey: -1653597993525
+metaSortKey: -1654518164712
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

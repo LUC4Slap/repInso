@@ -1,0 +1,13 @@
+_id: fld_6f967dcefe2e47b89cd51b3bed39be11
+type: RequestGroup
+parentId: wrk_ebb488e4d18145478a3018cdcca50def
+modified: 1654518146374
+created: 1654518112284
+name: LOWIB PRODUÇÃO
+description: ""
+environment:
+  base_url: https://apigateway.integra.do/lowib/
+environmentPropertyOrder:
+  "&":
+    - base_url
+metaSortKey: -1654518112284

@@ -1,10 +1,10 @@
-_id: req_79e5f24d95404013b12c39f5ee121329
+_id: req_4974263181a446a7a4d7e9df4ca5a70b
 type: Request
 parentId: fld_a7fb139c946748afb844271e8cb0bbc4
-modified: 1655845035474
-created: 1653593132781
-url: "{{ _.base_url_prod }}/product"
-name: Get Product
+modified: 1655833169685
+created: 1655830586278
+url: "{{ _.base_url_dev }}/product/all"
+name: Get Product Stock Price
 description: ""
 method: GET
 body: {}
@@ -27,7 +27,7 @@ headers:
     value: 2018-11-27T09:16:13.232Z
     description: ""
 authentication: {}
-metaSortKey: -1653593132781
+metaSortKey: -1653580989865
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
